@@ -7,7 +7,6 @@ public class Manager extends Staff {
         this.email = email;
     }
 
-
     public void hire(){
         System.out.println("Manager Hired The Cashier");
     }

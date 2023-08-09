@@ -6,7 +6,7 @@ public class Cashier extends Manager{
         this.hourlyPayRate = hourlyPayRate;
     }
     public void receipt(String sale){
-        System.out.println("cashier sold goods to Customer " + sale + " And Despenses Receipt");
+        System.out.println("cashier sold goods to Customer " + sale + " And Dispenses Receipt");
     }
 
 
