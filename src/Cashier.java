@@ -1,5 +1,5 @@
 public class Cashier extends Manager{
-    private double hourlyPayRate;
+    final double hourlyPayRate;
 
     public Cashier(String name, String birthDate, int staffId, String email, double hourlyPayRate) {
         super(name, birthDate, staffId, email);

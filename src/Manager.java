@@ -1,10 +1,6 @@
 public class Manager extends Staff {
 
-    private String email;
-
-    public Manager(){
-
-    }
+    final String email;
 
     public Manager(String name, String birthDate, int staffId, String email) {
         super(name, birthDate, staffId);
