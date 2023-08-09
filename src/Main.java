@@ -18,8 +18,8 @@ public class Main {
         System.out.println("Cashier's Pay = " + cashier.collectPay());
 
 
-        Customer seyi = new Customer("timmy");
-        seyi.purchases("RICE");
+        Customer timmy = new Customer("timmy");
+        timmy.purchases("RICE");
 
 
         Product rice = new Product("Rice", 500);
